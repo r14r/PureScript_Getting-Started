@@ -1,0 +1,26 @@
+{
+	"prettier.tabWidth": 4,
+	"prettier.useTabs": true,
+	"prettier.singleQuote": true,
+
+	"editor.formatOnSave": true,
+
+	"files.exclude": {
+		"**/.git": true,
+		"**/.svn": true,
+		"**/.hg": true,
+		"**/CVS": true,
+		"**/.DS_Store": true,
+		"**/.classpath": true,
+		"**/.project": true,
+		"**/.settings": true,
+		"**/.factorypath": true,
+		"**/output": true,
+		"**/node_modules": true,
+		"**/.spago": true,
+		"**/.purs-repl": true,
+		"**/.psc-ide-port": true,
+		"**/.gitignore": true
+	},
+	"explorerExclude.backup": null
+}

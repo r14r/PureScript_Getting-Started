@@ -1,0 +1,37 @@
+{
+	"name": "getting-started",
+	"version": "1.0.0",
+	"description": "PureScript - Getting Started",
+	"main": "index.js",
+	"directories": {
+		"test": "test"
+	},
+	"scripts": {
+		"build": "spago build",
+		"run": "spago run",
+		"bundle": "spago bundle-app",
+		"webpack": "webpack --mode=development",
+		"webpack:server": "webpack-dev-server --progress --inline --hot"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/r14r/PureScript_Getting-Started.git"
+	},
+	"keywords": [
+		"PureScript"
+	],
+	"author": "Ralph Göstenmeier",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/r14r/PureScript_Getting-Started/issues"
+	},
+	"homepage": "https://github.com/r14r/PureScript_Getting-Started#readme",
+	"devDependencies": {
+		"html-webpack-plugin": "^4.5.0",
+		"purescript-psa": "^0.8.0",
+		"purs-loader": "^3.7.2",
+		"webpack": "^5.11.1",
+		"webpack-cli": "^4.3.1",
+		"webpack-dev-server": "^3.11.1"
+	}
+}
