@@ -1,0 +1,2 @@
+- name: Set up a PureScript toolchain
+  uses: purescript-contrib/setup-purescript@v1.1
